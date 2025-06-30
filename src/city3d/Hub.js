@@ -116,7 +116,7 @@ export class Hub {
         this.donate = UIL.add('button', { 
             target:this.hub, w:64, h:64, pos:{left:'84px', bottom:'10px'}, simple:true, 
             button:'#8397ac' 
-        }).icon( UIL.Tools.icon('Github', '#DEDEDE', 50) ).onChange( function(v){ let w = window.open('https://github.com/Lokrogaming','_blank'); } )
+        }).icon( UIL.Tools.icon('github', '#DEDEDE', 50) ).onChange( function(v){ let w = window.open('https://github.com/Lokrogaming','_blank'); } )
 
 
 
